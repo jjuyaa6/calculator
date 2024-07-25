@@ -23,5 +23,10 @@ public class App {
             System.out.println("두 번째 숫자: 양수가 아닙니다");
         }
 
+        //1-2
+        System.out.println("사칙연산 기호를 입력하세요: ");
+
+        char sign = sc.next().charAt(0);
+        System.out.println(sign);
     }
 }
