@@ -9,6 +9,11 @@ public class App {
 
         Scanner sc = new Scanner(System.in);
 
+        //  Level 1 - 5
+        int[] intArray = new int[10];
+        int arrayIndex = 0;
+
+        //  Level 1 - 4
         while (true) {
             //  Level 1 - 1
             System.out.print("첫 번째 숫자를 입력하세요 : ");
@@ -55,6 +60,10 @@ public class App {
                     operator = sc.next().charAt(0);
                     break;
             }
+
+            intArray[arrayIndex] = result;
+            arrayIndex++;
+
             System.out.println("결과 : " + num1 + " " + operator + " " + num2 + " = " + result);
 
             //  Level 1 - 4
